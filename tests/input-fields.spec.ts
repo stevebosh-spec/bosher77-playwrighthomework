@@ -31,3 +31,5 @@ test('Update Pet Type', async ({page}) => {
   await expect(page.locator('[id="0"]')).toHaveValue('cat')
 })
 
+
+
